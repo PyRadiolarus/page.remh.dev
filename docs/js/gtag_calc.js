@@ -1,5 +1,5 @@
 // Global site tag (gtag.js) - Google Analytics
-    document.write('<script async src="https://www.googletagmanager.com/gtag/js?id=G-SLLVKQBE42"></script>');    
+    document.write('<script async src="https://page.remh.dev/js/gtag_G-SLLVKQBE42.js"></script>');    
     window.dataLayer = window.dataLayer || [];
     function gtag(){
         dataLayer.push(arguments);
