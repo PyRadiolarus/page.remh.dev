@@ -41,6 +41,3 @@ draft: false
 BY 4.0に基づき公開しています。
 
 詳細は[こちら](https://github.com/PyRadiolarus/yucalc-gpa/blob/4d1d44ee1e9f638912283b1b2eac40321845009e/LICENSE.txt)からお読みください。
-
-Written by
-[PyRadiolarus](https://github.com/PyRadiolarus/)

@@ -17,10 +17,10 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "default"
   description = "Describe your website"
-  # copyright = "&copy;2016 Your name or company"
+  # copyright = "&copy;2022 Minori Hagino"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "春から理系大学院生となる一般男性(22)の個人サイトです。",
+    "現在一部ページのみ試験運用中、ほとんどのページは作成中です。"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -34,7 +34,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "jp7vai@jarl.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -48,27 +48,30 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "portfolio/"
+  url = "404.html"
+  # url = "portfolio/"
   home = true
 
   [[params.navlinks]]
   name = "About"
-  url = "about/"
+  url = "404.html"
+  # url = "about/"
 
   [[params.navlinks]]
   name = "Get in touch"
-  url = "contact/"
+  url = "404.html"
+  # url = "contact/"
 
   [params.social]
   # facebook      = "full page or profile url in facebook"
   # googleplus    = "full profile url in googleplus"
-  # email         = "email@example.com"
+  # email         = "jp7vai@jarl.com"
   twitter       = "4voltex"
   # linkedin      = "full profile url in linkedin"
   # stackoverflow = "full profile url in stackoverflow"
   instagram     = "256duckleek"
   github        = "PyRadiolarus"
   # gitlab        = "full profile url in gitlab"
-  # youtube       = "full profile url in youtube"
+  # youtube       = "https://www.youtube.com/channel/UCAu_F7mOd0ailzv1gboBdwA/"
   # whatsapp      = "wa.me service link"
 
