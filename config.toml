@@ -2,7 +2,7 @@ baseurl = "https://page.remh.dev/"
 title = "M.Hagino's Personal Site"
 theme = "hugo-creative-portfolio-theme"
 author = "Minori Hagino"
-copyright = "&copy; 2022. All rights reserved."
+copyright = "&copy; 2022-2023. All rights reserved."
 languageCode = "ja-jp"
 publishDir = "docs"
 canonifyurls = true
@@ -15,11 +15,12 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
+  customCSS = ["default", "/docs/css/custom.css"]
   style = "default"
   description = "Describe your website"
-  # copyright = "&copy;2022 Minori Hagino"
+  # copyright = "&copy;2022−2023 Minori Hagino"
   sidebarAbout = [
-    "春から理系大学院生となる一般男性(22)の個人サイトです。",
+    "理系大学院2年生となる一般男性(23)の個人サイトです。",
     "現在一部ページのみ試験運用中、ほとんどのページは作成中です。"
   ]
   # Contact page
@@ -46,6 +47,7 @@ googleAnalytics = ""
       #  hash = ""
 
   # Nav links in the side bar
+
   [[params.navlinks]]
   name = "Home"
   url = "404.html"
