@@ -1,4 +1,21 @@
 /* your styles go here */
+
 .col-lg-8 {
     width: 100%;
+}
+
+details {
+    /* border: 1px solid #aaa; */
+    border-radius: 2px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    list-style-type: circle;
+}
+
+details[open] {
+    padding: 0.5em;
 }

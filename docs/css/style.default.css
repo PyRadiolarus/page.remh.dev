@@ -408,14 +408,14 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column-content p,
 .content-column-content li {
-  color: #999999;
+  color: #000000;
 }
 .content-column-content ul li {
   list-style-type: none;
 }
 .content-column-content ul li:before {
   font-family: 'FontAwesome';
-  content: '\f105';
+  content: none;
   margin: 0 5px 0 -15px;
   color: #ef5285;
 }
@@ -857,7 +857,7 @@ a:active {
   padding: 15px 20px 15px;
 }
 .box-masonry .box-masonry-text p {
-  color: #999999;
+  color: #000000;
   font-size: 14px;
 }
 .box-masonry .box-masonry-hover-text-header {
@@ -969,7 +969,7 @@ a:active {
   color: #555555;
 }
 .box-simple p {
-  color: #999999;
+  color: #000000;
 }
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
@@ -1170,7 +1170,7 @@ a:active {
   letter-spacing: 0.08em;
 }
 .box-image-text .content p {
-  color: #999999;
+  color: #000000;
 }
 .box-image-text.bg-visible .bg {
   opacity: 0.8;
