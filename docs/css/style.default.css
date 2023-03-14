@@ -411,7 +411,7 @@ SIDEBAR + RIGHT COLUMN
   color: #000000;
 }
 .content-column-content ul li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 .content-column-content ul li:before {
   font-family: 'FontAwesome';

@@ -1,12 +1,24 @@
 /* your styles go here */
 
 .col-lg-8 {
-    width: 100%;
+    width: 96%;
+}
+
+.col-lg-8 p {
+    text-indent: 1em;
+}
+
+.col-lg-8 dd {
+    text-indent: 1rem;
+    margin-left: 1rem;
+}
+
+.red {
+    color: #ff0000;
 }
 
 details {
-    /* border: 1px solid #aaa; */
-    border-radius: 2px;
+    display: inline-block;
     padding: 0.5em 0.5em 0;
 }
 
@@ -16,6 +28,54 @@ summary {
     list-style-type: circle;
 }
 
+.widget {
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hlwidget {
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 details[open] {
     padding: 0.5em;
+}
+
+details[open] summary {
+    margin-bottom: 0.5em;
+}
+
+details ul {
+    padding-inline-start: 5px;
+}
+
+.content-column-content details ul li {
+    list-style-type: disc;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+table.spec>tbody {
+    border: 4px solid #333;
+}
+
+table.spec>tbody>tr>td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.content-column-content table td ul {
+    padding: 10px;
 }
